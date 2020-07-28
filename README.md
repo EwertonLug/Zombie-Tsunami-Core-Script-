@@ -11,7 +11,7 @@ Se o master morrer passa para o próximo.
 O master é sempre o elemento 0 da lista.
 
 ## Principais métodos
-FollowPivot - Caso o player da lista não seja o master, vai apenas seguir o pivô.
+<i>FollowPivot</i> - Caso o player da lista não seja o master, vai apenas seguir o pivô.
 pivô = [n-1], onde n é o index do player que não é master.
 
-UpdateMasterPlayer - Toda vez que um player morre, esse método envia para os demais player o atual master na lista.
+<i>UpdateMasterPlayer</i> - Toda vez que um player morre, esse método envia para os demais player o atual master na lista.
