@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     private Player master;
     private SpawnerPlayer spawner;
     private Rigidbody2D rgb2D;
-
+    public bool enableGravity = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
      */
     void MoveThisPlayer()
     {
-        rgb2D.gravityScale = 1f;
+        rgb2D.gravityScale = enableGravity ? 1f : 0f;
         Debug.Log(this.gameObject.name + " - Recebendo os Inputs do Jogador");
         if (Input.GetKey(KeyCode.A))
         {
@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
         {
             rgb2D.gravityScale = 0f;
             var pivot = spawner.players[spawner.players.IndexOf(this) - 1];
-            var newPos = Vector2.Lerp(transform.position, pivot.transform.position,spawner.lerpTime);
+            var newPos = Vector2.Lerp(transform.position, pivot.transform.position, spawner.lerpTime);
             transform.position = new Vector2(newPos.x + spawner.offset.x, newPos.y + spawner.offset.y);
         }
     }
