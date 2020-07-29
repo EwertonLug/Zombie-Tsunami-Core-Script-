@@ -1,6 +1,7 @@
 # Zombie-Tsunami-Core-Script-
 ## Lógica
-![Screenshot](https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/logic.png)
+
+<img src="https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/logic.png" width="500" height="200">
 
 A lógica implementada é parecida com a de um Multiplayer. 
 
@@ -22,9 +23,9 @@ pivô = [n-1], onde n é o index do player que não é master.
 
 Exemplo 1
 
-![Screenshot](https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/Screen1.png)
+<img src="https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/Screen1.png" width="720" height="400">
 
 Exemplo 2
 
-![Screenshot](https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/Screen2.png)
+<img src="https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/Screen2.png" width="720" height="400">
 
