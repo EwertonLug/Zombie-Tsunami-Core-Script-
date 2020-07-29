@@ -13,6 +13,8 @@ Se o master morrer passa para o próximo.
 
 O master é sempre o elemento 0 da lista.
 
+Os demais elementos vão sempre acompanhar o próximo da lista.
+
 ## Principais métodos
 <i>FollowPivot</i> - Caso o player da lista não seja o master, vai apenas seguir o pivô.
 pivô = [n-1], onde n é o index do player que não é master.
