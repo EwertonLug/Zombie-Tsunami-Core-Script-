@@ -20,6 +20,11 @@ pivô = [n-1], onde n é o index do player que não é master.
 
 ## ScreenShots
 
+Exemplo 1
+
 ![Screenshot](https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/Screen1.png)
+
+Exemplo 2
+
 ![Screenshot](https://github.com/EwertonLug/Zombie-Tsunami-Core-Script-/blob/master/Assets/Sprites/GitHub/Screen2.png)
 
